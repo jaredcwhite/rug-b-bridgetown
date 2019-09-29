@@ -1,0 +1,94 @@
+@import url('/assets/FiraGO/FiraGO.css');
+@import url('/assets/FiraCode/FiraCode.css');
+
+body {
+  font-family: 'FiraGO';
+  color: #363430;
+}
+body.remark-container {
+  background-color: #B2B09B;
+}
+h1 { font-weight: 800; }
+h2, h3 {
+  font-weight: normal;
+}
+.remark-code, .remark-inline-code { font-family: 'Fira Code'; }
+.hljs-github .hljs {
+  border: 1px dashed #B2B09B;
+  background-color: #fafafa;
+  padding: .8em;
+}
+
+.remark-slide-content {
+  background-size: cover;
+}
+
+.white-titles h1, .white-titles h2, .white-titles h3 {
+  color: white;
+  text-shadow: 0px 4px 12px black;
+}
+.white-titles h2 {
+  color: rgb(255, 213, 159);
+}
+
+.remark-slide-content p img {
+  max-width: 350px;
+}
+.avatar img {
+  width: 200px;
+}
+.avatar img, .rounded img {
+  border-radius: 50%;
+}
+
+p, ul, ol, blockquote {
+  line-height: 150%;
+}
+p > a, li > a, blockquote > a {
+  color: #DB504A;
+}
+li {
+  margin-bottom: .8em;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 1.5em;
+  border-left: 5px solid #DB504A; 
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h1#shopify- {
+  background: #CC0000;
+  animation: bgColor 5s infinite linear;
+  color: white;
+  padding: .3em;
+}
+@keyframes bgColor {
+  12.5% {
+    background-color: #CC0000;
+  }
+  25% {
+    background-color: #CC8500;
+  }
+  37.5% {
+    background-color: #CCCC00;
+  }
+  50% {
+    background-color: #409900;
+    padding-left: 9.5em;
+  }
+  62.5% {
+    background-color: #00AACC;
+  }
+  75% {
+    background-color: #0000CC;
+  }
+  87.5% {
+    background-color: #9932CC;
+  }
+  100% {
+    background-color: #CC2463;
+  }
+}
