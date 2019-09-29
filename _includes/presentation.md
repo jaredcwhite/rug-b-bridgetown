@@ -154,7 +154,7 @@ class: animated fadeIn faster
 
 We got a solid 5.0 release, then 5.1 with Webpacker (truly a major leap forward!), then more recently 5.2.
 
-Meanwhile, GitHub went through a **massive** overhaul of its Rails codebase (at the leading of the very talented Eileen M. Uchitelle) to shift from using a crazy fork of Rails 2.x to using modern, "stock" Rails. This is what allowed GitHub to go even farther and [start running off of master](https://github.blog/2019-09-09-running-github-on-rails-6-0/) and contributing heavily to Rails for version 6 (and they show no signs of stopping!)
+Meanwhile, GitHub went through a **massive** overhaul of its Rails codebase (at the leading of the very talented Eileen M. Uchitelle) to shift from using a crazy fork of Rails 3.2 to using modern, "stock" Rails. This is what allowed GitHub to go even farther and [start running off of master](https://github.blog/2019-09-09-running-github-on-rails-6-0/) and contributing heavily to Rails for version 6 (and they show no signs of stopping!)
 
 [Shopify is also running off of master](https://engineering.shopify.com/blogs/engineering/living-on-the-edge-of-rails) and has also contributed heavily to Rails 6.
 
