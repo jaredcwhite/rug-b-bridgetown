@@ -44,6 +44,16 @@ h2, h3 {
 p .big img {
   max-width: 750px;
 }
+.twitter img {
+  vertical-align: -0.6em;
+  height: 1.8em;
+  margin-right: 0.2em;
+}
+.mastodon img {
+  vertical-align: -0.2em;
+  height: 1em;
+  margin-right: 0.5em;
+}
 
 .previousSlideButton, .nextSlideButton {
   font-family: sans-serif;

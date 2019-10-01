@@ -28,6 +28,8 @@ class: center animated fadeIn faster
 I’m Jared White, the Founder and Lead Rubyist at [Whitefusion](https://whitefusion.io),  
 a boutique web studio based in Portland, OR.
 
+[.twitter[![Twitter](/assets/twitter.svg)]@jaredcwhite](https://twitter.com/jaredcwhite) / [.mastodon[![Mastodon](/assets/mastodon.svg)]@jared@openweb.social](https://openweb.social/@jared)
+
 I’ve been at this Ruby on Rails game since v2 (circa 2008).
 
 And as a designer/developer in general, since 1997!!! 😱
