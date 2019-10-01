@@ -5,7 +5,7 @@ body {
   font-family: 'FiraGO';
   color: #363430;
 }
-body.remark-container {
+body, body.remark-container {
   background-color: #B2B09B;
 }
 h1 { font-weight: 800; }
@@ -39,6 +39,38 @@ h2, h3 {
 }
 .avatar img, .rounded img {
   border-radius: 50%;
+}
+
+.previousSlideButton, .nextSlideButton {
+  font-family: sans-serif;
+  position: absolute;
+  z-index: 10;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  color: white;
+  font-size: 30px;
+  line-height: 0;
+  height: 48px;
+  padding: 10px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  top: 45%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.previousSlideButton.appearAfterMouseMove, .nextSlideButton.appearAfterMouseMove {
+  opacity: 1;
+}
+
+.previousSlideButton {
+  left: 10px;
+}
+.nextSlideButton {
+  right: 10px;
+}
+
+textarea#source {
+  display: none;
 }
 
 p, ul, ol, blockquote {
