@@ -706,4 +706,4 @@ _(hire me!)_
 ### Watch this again:
 
 https://rails6.whitefusion.design  
-_(built with Jekyll & Remark.js)_
+_(built with Jekyll & Remark.js [[source]](https://github.com/whitefusionhq/rails6presentation))_

@@ -80,7 +80,7 @@ textarea#source {
 p, ul, ol, blockquote {
   line-height: 150%;
 }
-p > a, li > a, blockquote > a {
+p > a, li > a, blockquote > a, em > a, strong > a {
   color: #DB504A;
 }
 li {
