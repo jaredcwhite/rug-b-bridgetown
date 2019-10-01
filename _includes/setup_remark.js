@@ -1,4 +1,5 @@
 var slideshow;
+var touchDevice = false;
 
 function jumpToNextSlide() {
   slideshow.gotoNextSlide()
@@ -25,8 +26,16 @@ function setupRemark() {
       item.classList.remove('appearAfterMouseMove')
     })
   }
+  
+  document.body.addEventListener('touchend', function() {
+    touchDevice = true
+  })
+  
 
   document.body.addEventListener('mousemove', function() {
+    if (touchDevice) {
+      return;
+    }
     mouseDebounce += 1
     if (mouseDebounce == 10) {
       clearTimeout(hideTimer)

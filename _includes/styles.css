@@ -4,6 +4,7 @@
 body {
   font-family: 'FiraGO';
   color: #363430;
+  -webkit-text-size-adjust: 100%;
 }
 body, body.remark-container {
   background-color: #B2B09B;
@@ -39,6 +40,9 @@ h2, h3 {
 }
 .avatar img, .rounded img {
   border-radius: 50%;
+}
+p .big img {
+  max-width: 750px;
 }
 
 .previousSlideButton, .nextSlideButton {
