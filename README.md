@@ -1,5 +1,5 @@
-# What's New in Rails 6 (and the Future of the Ecosystem) 
+# Introducing Bridgetown 
 
-A talk I gave at the [Portland Ruby Brigade](https://pdxruby.org) meetup on October 1, 2019.
+A talk I gave at the [Portland Ruby Brigade](https://pdxruby.org) meetup on May 5, 2020 about the [Bridgetown static site generator](https://www.bridgetownrb.com)
 
-**[View the slides online here](https://rails6.whitefusion.design)**
+**[View the slides online here](https://introbt.whitefusion.design)**

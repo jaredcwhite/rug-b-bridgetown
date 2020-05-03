@@ -9,6 +9,10 @@ body {
 body, body.remark-container {
   background-color: #B2B09B;
 }
+.gray {
+  color: #999;
+}
+
 h1 { font-weight: 800; }
 h2, h3 {
   font-weight: normal;
@@ -44,14 +48,17 @@ h2, h3 {
 p .big img {
   max-width: 750px;
 }
+.small img {
+  max-width: 225px !important;
+}
 .twitter img {
   vertical-align: -0.6em;
   height: 1.8em;
   margin-right: 0.2em;
 }
-.mastodon img {
+.github img {
   vertical-align: -0.2em;
-  height: 1em;
+  height: 1.1em;
   margin-right: 0.5em;
 }
 
@@ -95,6 +102,10 @@ p > a, li > a, blockquote > a, em > a, strong > a {
 }
 li {
   margin-bottom: .8em;
+}
+
+.bigger-list li {
+  font-size: 1.5em;
 }
 
 blockquote {
