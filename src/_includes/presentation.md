@@ -202,17 +202,24 @@ class: center middle animated fadeIn
 ### .gray[(I blame @onewheelskyward)]
 
 ---
+class: center middle animated fadeIn faster
+
+# So I did.
+
+.big[[![Bridgetown](https://www.bridgetownrb.com/images/bridgetown-logo-twitter-card.jpg)](https://www.bridgetownrb.com)]
+
+---
 class: animated fadeInRight
 
-# So, a Brief Timeline…
+# A Brief Timeline…
 
 * **April 2:** Cloned Jekyll repo and batch-renamed all identifiers to Bridgetown. Astonishingly, it actually worked !!
 * **April 3-5:** Completed in-depth code audit, started cleaning up and rearranging the furniture.
 * **April 5-9:** Started work on new website & logo, updating and rewriting documentation, etc.
 * **April 9:** First big new "feature" — `bridgetown console`
-* **April 13:** Notified Jekyll core team of fork
+* **April 13:** Notified Jekyll core team of Bridgetown fork.
 * **April 18:** A true frontend integration with Webpack! 🎉
-* **April 18-Present:** A caffeine/beer-infused haze of releases, announcements, and enhancements galore
+* **April 18-Present:** A caffeine/beer-infused haze of releases, announcements, and enhancements galore.
 
 ---
 class: center middle animated zoomIn
