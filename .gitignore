@@ -1,4 +1,6 @@
 output
 .bridgetown-cache
 .bridgetown-metadata
+.bridgetown-webpack
 vendor
+node_modules

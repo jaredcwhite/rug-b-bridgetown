@@ -118,7 +118,7 @@ class: animated fadeIn
 ---
 class: center middle animated fadeInRight
 
-.big[![Eleventy replaces Jekyll?](/assets/eleventy-replaces-jekyll.png)]
+.medium[![Eleventy replaces Jekyll?](/assets/eleventy-replaces-jekyll.png)]
 
 ## Um…
 
@@ -127,7 +127,7 @@ class: center middle animated fadeInRight
 ---
 class: center middle animated zoomIn
 
-![ruby-is-slow-dependency-hell](/assets/ruby-is-slow-dependency-hell.png)
+.medium[![ruby-is-slow-dependency-hell](/assets/ruby-is-slow-dependency-hell.png)]
 
 ## Ruby is slow and suffers from dependency hell?!?
 
@@ -208,7 +208,7 @@ class: animated fadeInRight
 
 * **April 2:** Cloned Jekyll repo and batch-renamed all identifiers to Bridgetown. Astonishingly, it actually worked !!
 * **April 3-5:** Completed in-depth code audit, started cleaning up and rearranging the furniture.
-* **April 5-9:** Started work on new website & logo, updating documentation, etc.
+* **April 5-9:** Started work on new website & logo, updating and rewriting documentation, etc.
 * **April 9:** First big new "feature" — `bridgetown console`
 * **April 13:** Notified Jekyll core team of fork
 * **April 18:** A true frontend integration with Webpack! 🎉
@@ -234,7 +234,7 @@ class: center middle animated zoomIn
 ---
 class: animated fadeInRight
 
-### Bridgetown Features **Already Released**
+## Bridgetown Features **Already Released**
 
 * ✅ **Streamline internals** to remove deprecated or legacy code paths and reduce confusing configuration options.
 * ✅ **Improve default site file/folder structure** to bring Bridgetown in line with other popular static site generators.
@@ -248,8 +248,9 @@ class: animated fadeInRight
 ---
 class: animated fadeInRight
 
-### **Coming Soon** to Bridgetown
+## **Coming Soon** to Bridgetown
 
+* ✳️ A **predictable release schedule** based on SemVer.
 * ✳️ External theme(s) support via Gem-based plugins with complete **NPM/Webpack integration**. 🤯
 * ✳️ **Hot reloading** of in-repo custom Ruby plugins during development. 🎉
 * ✳️ An easy to use, **brand-new DSL** for writing Bridgetown plugins that far outstrips what is possible with Jekyll.
@@ -274,10 +275,13 @@ class: center middle animated zoomIn
 ---
 class: center middle animated fadeIn
 
-.big[![Nod](https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif)]
+![Nod](https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif)
 
 ## _final takeaway:_
-## Ruby, **you still got it**. 👍
+## Bridgetown is here and prepared for the **long haul**…
+
+--
+## … and Ruby, **you still got it**. 👍
 
 ---
 class: center middle animated fadeIn faster
@@ -286,7 +290,9 @@ class: center middle animated fadeIn faster
 
 # 🙏
 
-### **[www.bridgetownrb.com](https://www.bridgetownrb.com)**
+--
+## Start using Bridgetown, file some issues, become a contributor, and rock this party! 🎉
+## **[www.bridgetownrb.com](https://www.bridgetownrb.com)**
 
 ---
 class: center middle animated fadeInRight faster
@@ -300,5 +306,5 @@ https://whitefusion.io
 
 ### Watch this again:
 
-https://pdxrb-bridgetown.whitefusion.design  
+https://pdxrb-bridgetown.netlify.app  
 _(built with Bridgetown & Remark.js [[source]](https://github.com/whitefusionhq/pdxrb-bridgetown))_

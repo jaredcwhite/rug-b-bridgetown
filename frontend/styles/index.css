@@ -1,8 +1,10 @@
-@import url('/assets/FiraGO/FiraGO.css');
-@import url('/assets/FiraCode/FiraCode.css');
+@import "~animate.css";
+@import "../fonts/FiraGO/FiraGO.css";
+@import "../fonts/FiraCode/FiraCode.css";
 
 body {
   font-family: 'FiraGO';
+  font-size: 22px;
   color: #363430;
   -webkit-text-size-adjust: 100%;
 }
@@ -13,10 +15,14 @@ body, body.remark-container {
   color: #999;
 }
 
-h1 { font-weight: 800; }
+h1 { font-weight: 800; font-size: 2.2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.2em; }
+
 h2, h3 {
   font-weight: normal;
 }
+
 .remark-code, .remark-inline-code { font-family: 'Fira Code'; }
 .hljs-github .hljs {
   border: 1px dashed #B2B09B;
@@ -45,8 +51,13 @@ h2, h3 {
 .avatar img, .rounded img {
   border-radius: 50%;
 }
+p .medium img {
+  max-width: 100%;
+  width: 525px;
+}
 p .big img {
-  max-width: 750px;
+  max-width: 100%;
+  width: 750px;
 }
 .small img {
   max-width: 225px !important;
@@ -101,7 +112,7 @@ p > a, li > a, blockquote > a, em > a, strong > a {
   color: #DB504A;
 }
 li {
-  margin-bottom: .8em;
+  margin-bottom: .7em;
 }
 
 .bigger-list li {
