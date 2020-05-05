@@ -74,16 +74,17 @@ p .big img {
 }
 
 .previousSlideButton, .nextSlideButton {
+  cursor: pointer;
   font-family: sans-serif;
   position: absolute;
   z-index: 10;
   border: none;
   background: rgba(0,0,0,0.2);
   color: white;
-  font-size: 30px;
+  font-size: 31px;
   line-height: 0;
-  height: 48px;
-  padding: 10px;
+  height: 54px;
+  padding: 11px;
   padding-bottom: 5px;
   border-radius: 5px;
   top: 45%;

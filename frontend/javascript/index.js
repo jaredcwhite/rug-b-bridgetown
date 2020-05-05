@@ -1,11 +1,12 @@
 import "remark/src/remark";
 import "../styles/index.css";
 
-var slideshow;
-var touchDevice = false;
+let touchDevice = false
+let mouseDebounce = 0
+let hideTimer = null
 
 if (document.querySelector("textarea#source")) {
-  slideshow = window.remark.create({
+  const slideshow = window.remark.create({
     ratio: '9:6',
     highlightStyle: 'github',
     navigation: {
@@ -13,11 +14,16 @@ if (document.querySelector("textarea#source")) {
     }
   })
 
-  document.querySelector(".previousSlideButton").addEventListener("click", () => { slideshow.gotoPreviousSlide() })
-  document.querySelector(".nextSlideButton").addEventListener("click", () => { slideshow.gotoNextSlide() })
-
-  var mouseDebounce = 0
-  var hideTimer = null
+  document.querySelector(".previousSlideButton").addEventListener("click", () => {
+    if (!touchDevice) {
+      slideshow.gotoPreviousSlide()
+    }
+  })
+  document.querySelector(".nextSlideButton").addEventListener("click", () => {
+    if (!touchDevice) {
+      slideshow.gotoNextSlide()
+    }
+  })
 
   const hideButtons = () => {
     document.querySelectorAll('.previousSlideButton, .nextSlideButton').forEach((item) => {
@@ -25,14 +31,14 @@ if (document.querySelector("textarea#source")) {
     })
   }
 
-  document.body.addEventListener('touchend', function() {
+  document.body.addEventListener('touchstart', function() {
     touchDevice = true
   })
 
 
   document.body.addEventListener('mousemove', function() {
     if (touchDevice) {
-      return;
+      return
     }
     mouseDebounce += 1
     if (mouseDebounce == 10) {
