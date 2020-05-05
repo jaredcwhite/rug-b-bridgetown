@@ -307,4 +307,4 @@ https://whitefusion.io
 ### Watch this again:
 
 https://pdxrb-bridgetown.netlify.app  
-_(built with Bridgetown & Remark.js [[source]](https://github.com/whitefusionhq/pdxrb-bridgetown))_
+_(built with Bridgetown & Remark.js [[source]](https://github.com/jaredcwhite/pdxrb-bridgetown))_
