@@ -1,0 +1,339 @@
+class: center, middle, white-titles animated fadeIn faster
+background-image: url(https://res.cloudinary.com/mariposta/image/upload/w_1800,c_limit,q_65/IMG_5232_srqhvl.jpg)
+
+# Introducing Bridgetown
+--
+
+## (Ruby + Jamstack = 😍)
+
+---
+class: animated fadeInRight faster bigger-list
+
+# Here’s What We’ll Talk About
+
+1. A Brief Introduction
+2. Bridgetown Stats
+2. Why Fork Jekyll?
+4. Features & Roadmap
+5. Q & A
+
+.right.gray[Presented on]
+.right.gray[Thursday, February 4, 2021]
+
+---
+class: center animated fadeIn
+
+# Allow Me To Introduce Myself
+--
+
+.avatar[![Jared White](/assets/jared-studio-professional.jpg)]
+
+I’m Jared White, the Founder and Lead Rubyist at [Whitefusion](https://www.whitefusion.studio),  
+a boutique web studio based in Portland, OR.
+
+[.twitter[![Twitter](/assets/twitter.svg)]@jaredcwhite](https://twitter.com/jaredcwhite) .gray[/] [.github[![Github](/assets/github.svg)]@jaredcwhite](https://github.com/jaredcwhite)
+
+I’ve been Rails developer since 2008, and a Jekyll/Bridgetown site builder since 2015.
+
+And as a designer/developer in general, since 1997!!! 😱
+
+---
+class: animated fadeInRight faster
+
+# Some Cool Stats
+
+Since the first beta release in April 2020, [Bridgetown](https://www.bridgetownrb.com) has:
+
+* Stars: close to **300**
+* Core team members: **3** ([me](https://github.com/jaredcwhite), [Konnor Rogers](https://github.com/ParamagicDev), and [Ayush Newatia](https://github.com/ayushn21))
+* Contributors: **12**
+* Founding members (sponsors): **11**
+* PRs closed: **115**
+* Issues closed: **84**
+* RubyGems downloads: **16,487** (15% of StimulusReflex!)
+
+_And we’ve not even closed out Year 1!_ 🎉
+
+---
+class: center middle animated zoomIn
+
+# So…why fork Jekyll?
+
+## What was wrong with it anyway?
+
+---
+class: animated fadeIn
+
+# Web “Sites” vs. “Applications”
+
+Throughout the early 2010s, I was happily creating nifty apps in Rails for myself and for clients—yet I was simultaneously frustrated that I was forced to use crummy CMSes to create content-focused sites for clients.
+
+WordPress? _Perish the thought!_
+
+Drupal? _Spare me._
+
+A Rails-based CMS like Refinery? _Meh._ 😕
+
+--
+
+### **Then I discovered Jekyll.**
+
+---
+class: center animated fadeIn faster
+
+# ❤️🧡💛💚💙💜
+
+![Unicorn Love](https://media.giphy.com/media/YkuzftfzdoPOE/source.gif)
+
+---
+class: animated fadeInRight
+
+# Ticking All the Boxes
+
+.small[![Jekyll](https://jekyllrb.com/img/logo-2x.png)]
+
+* Jekyll is powered by Ruby and Liquid templates.
+* Jekyll is purpose-built for one thing and one thing only: generating websites.
+* Jekyll sites are simply static snapshots of a Git-based content repository. You can host that output ANYWHERE. It's just compiled HTML/CSS/Javascript.
+* The most basic way you author content with Jekyll is…write Markdown in a text file. Add smarts with Liquid tags. Git commit. Boom. Done.
+* Want to provide a visual editor for non-techies? No problem! It can just open/save files under the hood and generate live previews, or you feed it data via an API (aka a “headless” CMS).
+
+---
+class: center middle animated fadeIn faster
+
+## This approach has now come to be called the **Jamstack**
+
+### **JAM**.gray[…]stack
+
+### JAM .gray[=] **J**avascript, **A**PIs, **M**arkup
+
+--
+
+And there are a ton of Jamstack tools and frameworks out now, not just Jekyll.
+
+--
+
+Which, coincidentally, brings us to today's topic.
+
+---
+class: center middle animated fadeInRight
+
+### Where is Bridgetown?
+
+### Who is Bridgetown?
+
+![Why is Bridgetown](/assets/why-is-bridgetown.jpg)
+
+---
+class: animated fadeIn
+
+# In a nutshell…
+
+## ⬇️ Releases on GitHub since April 2020 ⬇️
+
+* Bridgetown: **34**
+* Hugo (written in Go): **27**
+* Next.js (written in JavaScript): **15** (not including daily canary builds)
+* Jekyll…
+
+--
+
+* Jekyll (written in Ruby): **6** 😬  
+_(and when Bridgetown first forked, 8 months of inactivity!)_
+
+--
+
+* Eleventy (also JavaScript): **3** 🤔
+
+---
+class: center middle animated fadeInRight
+
+.medium[![Eleventy replaces Jekyll?](/assets/eleventy-replaces-jekyll.png)]
+
+## Um…
+
+## Is this true??
+
+---
+class: center middle animated zoomIn
+
+.medium[![ruby-is-slow-dependency-hell](/assets/ruby-is-slow-dependency-hell.png)]
+
+## Ruby is slow and suffers from dependency hell?!?
+
+---
+class: center middle animated zoomIn
+
+# 🙁
+
+## So Twitter is a dumpster fire 🔥, and meanwhile the unfortunate reality is that Jekyll slowly faded into “maintenance mode” after lead maintainer Parker Moore left mid-2019.
+
+---
+class: center middle animated zoomIn faster
+
+# 🥺
+
+## And this came at a time when Jekyll and the ecosystem's DX (developer experience) was _desperately_ in need of **modernization** (to survive the onslaught of new hotness rivals).
+
+---
+class: center middle animated zoomIn faster
+
+# 😭
+
+## So I had a lengthy conversation in a GitHub issue with the Jekyll core team about all that…
+
+---
+class: center middle animated zoomIn faster
+
+# 🧐
+
+## …and, while amicable, it did not go as I had hoped.
+
+---
+class: center middle animated zoomIn faster
+
+# 🤔
+
+## So I began to ponder my future as a Jamstack web designer.
+
+---
+class: center middle animated zoomIn faster
+
+# 😣
+
+## I did not want to have to abandon Ruby and suffer in the Go or JavaScript world forevermore.
+
+---
+class: center middle animated zoomIn faster
+
+# 😒
+
+## Middleman? Uh, erm, huh, hmm…<br/><br/>not for me I'm afraid.
+
+---
+class: center middle animated zoomIn faster
+
+# 😃💡
+
+## But then I had a .gray[<strike>crazy</strike>] great idea!
+
+---
+class: center middle animated fadeInRight
+
+.big[![Holy Mother Forking Shirt Ball](/assets/holy-mother-forking.gif)]
+
+---
+class: center middle animated fadeIn
+
+# JUST FORK IT. 🍴
+
+---
+class: center middle animated fadeIn faster
+
+# So I did.
+
+.big[[![Bridgetown](https://www.bridgetownrb.com/images/bridgetown-logo-twitter-card.jpg)](https://www.bridgetownrb.com)]
+
+---
+class: animated fadeInRight
+
+# A Brief Timeline of Its First Days…
+
+* **April 2, 2020:** Cloned Jekyll repo and batch-renamed all identifiers to Bridgetown. Astonishingly, it actually worked !!
+* **April 3-5:** Completed in-depth code audit, started cleaning up and rearranging the furniture.
+* **April 5-9:** Started work on new website & logo, updating and rewriting documentation, etc.
+* **April 9:** First big new "feature" — `bridgetown console`
+* **April 13:** Notified Jekyll core team of Bridgetown fork.
+* **April 18:** A true frontend integration with Webpack! 🎉
+* **April 18-Present:** A caffeine/beer-infused haze of releases, announcements, enhancements, PR merges, and sponsorships galore.
+
+---
+class: center middle animated zoomIn
+
+# Which brings us to today.
+
+--
+class: faster
+
+## Let's take stock of what we've accomplished and then see where this is all headed.
+
+---
+class: animated fadeInRight
+
+## Bridgetown Features **Already Released** – Part I
+
+* ✅ A **predictable release schedule** based on SemVer.
+* ✅ **Streamlined internals** to remove deprecated or legacy code paths and reduce confusing configuration options.
+* ✅ **Improved default site file/folder structure** to bring Bridgetown in line with other popular static site generators.
+* ✅ **Retooled the codebase** into a monorepo of multiple gems.
+* ✅ Integrated **pagination features** directly into the monorepo. 
+* ✅ Added streamlined taxonomy solution (for categories, tags, and other metadata) called **Prototype Pages**.
+* ✅ **Added** the Rails-inspired `bridgetown console` command.
+* ✅ Removed the aging asset pipeline to **regroup around a modern solution:  
+Yarn + Webpack.** (Plus Browsersync for live reload!)
+
+---
+class: animated fadeInRight
+
+## Bridgetown Features **Already Released** – Part II
+
+* ✅ Added **Ruby template** support (ERB, Haml, etc.) as a first-class citizen.
+* ✅ You can supercharge content logic with **Ruby Front Matter**.
+* ✅ Theme support via Gem-based plugins with **NPM/Webpack integration**. 🤯
+* ✅ Thor-based **automations** which allow for repeatable configuration of Bridgetown sites, great for gem/theme authors (think RailsBytes but for Bridgetown!)
+* ✅ An easy to use, **brand-new DSL** for writing Bridgetown plugins that far outstrips what is possible with Jekyll.
+* ✅ Building upon that DSL, **superior support** for third-party content/data APIs as well as GraphQL endpoints.
+* ✅ **Hot reloading** of in-repo custom Ruby plugins during development. 🎉
+
+---
+class: animated fadeInRight
+
+## **Coming Soon** to Bridgetown
+
+* ✳️ **View Components**: makes Ruby component-based design and authoring a reality, plus support for the actual `ViewComponent` Rails engine. 😁
+* ✳️ Built-in configuration options for **PostCSS**, **Snowpack**, **Hotwire**, and other frontend innovations.
+* ✳️ A total low-level **overhaul** of the Jekyll-forked content classes to fix numerous design flaws and power the **next 10 years** of Bridgetown.
+* ✳️ _I18n_ features at the core so pages can be generated in **multiple languages**—or generate multiple complete sites from one codebase!
+* ✳️ **Rails Nano**: optional integration with a lightweight Rails backend for a **melt-your-brain Ruby on Rails on Bridgetown on Jamstack** hybrid application architecture! 🤓
+
+.center[🔮 I call this the **DREAMstack**. **D**elightful **R**uby **E**xpressing **A**PIs & **M**arkup.]
+
+---
+class: center middle animated zoomIn
+
+# And that’s Bridgetown in 2021.
+
+# 🙌
+
+---
+class: center middle animated fadeIn
+
+![Nod](https://media.giphy.com/media/gVoBC0SuaHStq/giphy.gif)
+
+## Ruby, **you still got it**. 👍
+
+---
+class: center middle animated fadeIn faster
+
+# Thank You
+
+# 🙏
+
+--
+## Start using Bridgetown, file some issues, become a contributor, and rock this party! 🎉
+## **[www.bridgetownrb.com](https://www.bridgetownrb.com)**
+
+---
+class: center middle animated fadeInRight faster
+
+# Questions?
+
+.avatar[![Jared White](/assets/jared-studio-professional.jpg)]
+
+Jared White  
+https://www.whitefusion.studio  
+
+### Watch this again:
+
+https://rug-b-bridgetown.vercel.app  
+_(built with Bridgetown & Remark.js [[source]](https://github.com/jaredcwhite/rug-b-bridgetown))_

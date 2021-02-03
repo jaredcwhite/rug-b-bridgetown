@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "bridgetown", "~> 0.12"
+gem "bridgetown", "~> 0.19"

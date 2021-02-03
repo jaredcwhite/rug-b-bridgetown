@@ -30,24 +30,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)/,
-        use: {
-          loader: "babel-loader",
-          options: {
-            presets: ["@babel/preset-env"],
-            plugins: [
-              "@babel/plugin-proposal-class-properties",
-              [
-                "@babel/plugin-transform-runtime",
-                {
-                  helpers: false,
-                },
-              ],
-            ],
-          },
-        },
-      },
-      {
         test: /\.(s[ac]|c)ss$/,
         use: [
           MiniCssExtractPlugin.loader,
