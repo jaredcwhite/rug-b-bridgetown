@@ -1,5 +1,5 @@
 # Introducing Bridgetown 
 
-A talk I gave at the [Portland Ruby Brigade](https://pdxruby.org) meetup on May 5, 2020 about the [Bridgetown static site generator](https://www.bridgetownrb.com)
+A talk I gave at the [Ruby User Group Berlin](https://www.rug-b.de) meetup on February 4, 2021 about the [Bridgetown static site generator](https://www.bridgetownrb.com)
 
-**[View the slides online here](https://pdxrb-bridgetown.netlify.app)**
+**[View the slides online here](https://rug-b-bridgetown.vercel.app)**
